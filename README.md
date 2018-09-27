@@ -1,0 +1,1 @@
+This project is to copy the setup and layout of the Google.com homepage as much as possible using what I've learned so far in the Odin Project course.
