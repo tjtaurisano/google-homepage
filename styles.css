@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#top-nav a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 12px;
+}
+
+#spacer {
+    color: white
+}
+
+#logo {
+    position: relative;
+    height: 75%;
+    width: 75%;
+}
+
+a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type=text] {
+    width: 50%;
+    color: rgba(0,0,0,.87);
+    height: 18px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px;
+    word-wrap: break-word;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    display: flex;
+    flex: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+}
+
+#blurb {
+    align-content: center;
+    color: #000;
+    opacity: 1;
+    font-size: 14px;
+}
+
+#blurb a {
+    color: rgb(0, 0, 255)
+}
+
+#buttons input[type=submit] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
+
+#bottom-nav {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    display: inline-block;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+}
+#bottom-nav a {
+    padding-left: 27px;
+}
+
+#end {
+    padding-right: 30px;
+}
